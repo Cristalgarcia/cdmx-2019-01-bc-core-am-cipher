@@ -1,7 +1,5 @@
 
-
 const getCifrado = () =>{ 
-
 const offset = parseInt(document.getElementById('clave').value);
 //console.log(espacio)
 const string = document.getElementById('cifrar').value.toUpperCase();

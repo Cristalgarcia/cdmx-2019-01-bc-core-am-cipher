@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cifrado César</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>OFFICE CHAT</h1>
+    </div>
+    <div>
+         <h2>Conversa con tu equipo de trabajo de forma segura.</h2>
+    </div>
+    <div>
+        <h3>Elige una clave secreta y escribe el mensaje que quieres cifar.</h3>
+    </div>
+    <div>
+        <h4>Clave</h4>
+        <input id="clave" type="number" min="1" max="10" name="desplazamiento" class="inputNumber">
+    </div></br>
+
+    <div>
+      <p>Escribe tu mensaje</p>
+        <textarea id="cifrar" rows="10" cols="60" placeholder="Mensaje a cifrar" class=text></textarea>
+    </div>
+    <div></br>
+      <p>Obten tu mensaje</p>
+        <textarea id="decifrar" rows="10" cols="60" placeholder="Mensaje a decifrar" class=text></textarea>
+    </div>
+    <div>
+        <button class="button"  id="mensajeCifrado"  onclick="getCifrado()" type="button">Cifrar</button>
+        <button class="button"  id="mensajeDecifrado" onclick="getDecifrado()" type="button">Decifrar</button>
+        <button class="button" name="limpiar" type="reset">Borrar</button>
+    </div>
+    <script src="cipher.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
+
