@@ -1,16 +1,16 @@
+const clave = document.getElementById("clave");
+const cifrar = document.getElementById("cifrar");
+const button = document.getElementById("mensajeCifrado")
+const buttonDecifrar = document.getElementById("mensajeDecifrado")
 
-const getCifrar = () =>{ 
-const offset = parseInt(document.getElementById('clave').value);
-//console.log(espacio)
-const string = document.getElementById('cifrar').value.toUpperCase();
-//console.log
-document.getElementById('decifrar').value = cipher.encode(offset, string);
-}
+button.addEventListener("click", () => {
+  const claveResultado = parseInt(clave.value);
+  const cifrarResultado = cifrar.value.toUpperCase();
+  document.getElementById("decifrar").innerHTML = window.cipher.encode(claveResultado, cifrarResultado);
+});
 
-const getDecifrar = () =>{ 
-const offset = parseInt(document.getElementById('clave').value);
-//console.log(espacio)
-const string = document.getElementById('cifrar').value.toUpperCase();
-//console.log
-document.getElementById('decifrar').value = cipher.decode(offset, string);
-}
+buttonDecifrar.addEventListener("click", () => {
+  const claveResultadoDecifrar = parseInt(clave.value);
+  const cifrarResultadoDecifrar = cifrar.value.toUpperCase();
+  document.getElementById("decifrar").innerHTML = window.cipher.decode(claveResultadoDecifrar, cifrarResultadoDecifrar);
+});
