@@ -14,10 +14,10 @@ window.cipher = {
     let textDecifrado= "";
     //Recorrer cada uno de los caracteres del mensaje
     for (let i = 0; i < string.length; i++){
-       let codigo=(string.charCodeAt(i) + 65 - offset) % 26 + 65;
+      let codigo=(string.charCodeAt(i) + 65 - offset) % 26 + 65;
       let resultado=String.fromCharCode(codigo);
       textDecifrado+= resultado;
     }
     return textDecifrado
-  }  
+  } 
 };
