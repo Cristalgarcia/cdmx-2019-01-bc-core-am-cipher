@@ -1,12 +1,38 @@
 body{
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background: -webkit-linear-gradient(#0C6F6F, #2BFAFA);
+    font-family: 'Oxygen', sans-serif;
+    background: -webkit-linear-gradient(#025B65, #38D6BB);
     color: white;
+    font-weight: lighter
 }
+.pantallaDos{
+	display: none;
+}
+.inputNumber{
+	border-radius: 6px;
+	font-family: 'Oxygen', sans-serif;
+	padding: 5px;
+}
+.textbox{
+	font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+}
+.text{
+   border-radius: 10px;
+   font-family: 'Oxygen', sans-serif;
+   color: #1D2D2A;
 
+}
 .button{
-	color: red;
-	
+	border-radius: 6px;
+	padding: 8px;
+	background: white;
+    color: black;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
 }
-
+.button:hover{
+  background: #0A6D6D;
+  text-decoration: none;
+  color: white;
+}
