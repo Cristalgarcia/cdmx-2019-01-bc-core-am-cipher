@@ -5,6 +5,12 @@ body{
     color: white;
     font-weight: lighter
 }
+h1{
+	color: white;
+	font-size: 90px
+}
+
+}
 .pantallaDos{
 	display: none;
 }

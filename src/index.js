@@ -1,8 +1,17 @@
+document.getElementById("pantallaDos").style.display="none"
+const inicio = document.getElementById("inicio")
 const clave = document.getElementById("clave");
 const cifrar = document.getElementById("cifrar");
 const button = document.getElementById("mensajeCifrado")
 const buttonDecifrar = document.getElementById("mensajeDecifrado")
 const buttonReset = document.getElementById("reset");
+
+const comenzar = () => {
+  document.getElementById("pantallaUno").style.display="none"
+  document.getElementById("pantallaDos").style.display="block"
+};
+inicio.addEventListener("click", comenzar);
+
 
 button.addEventListener("click", () => {
   const claveResultado = parseInt(clave.value);

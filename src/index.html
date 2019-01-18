@@ -11,34 +11,38 @@
 
 </head>
 <body>
-<div id="pantallaUno">
-    <div>
-        <i class="fas fa-igloo fa-5x"></i>
-        <h1>CHATGlOO</h1>
-    </div>
-    <div>
-        <h2>Conversa con tu equipo de trabajo de forma segura.</h2>
-    </div>
-</div>   
-     <div id="pantallaDos">
-        <h3>Elige una clave secreta y escribe el mensaje ha cifar.</h3>
-        
+    <div id="pantallaUno">
         <div>
-          <h4>Clave</h4>
-          <input id="clave" type="number" min="1" max="10" name="desplazamiento" class="inputNumber">
-        </div><br/>
+            <i class="fas fa-igloo fa-5x"></i>
+            <h1 id="tituloH1">CHATGlOO</h1>
+        </div>
         <div>
-          <p class="textbox">Escribe tu mensaje</p>
-          <textarea id="cifrar" rows="8" cols="70" placeholder="Mensaje a cifrar" class="text"></textarea>
-        </div><br/>
-        <div>
-          <button class="button" id="mensajeCifrado" type="button">Cifrar</button>
-          <button class="button" id="mensajeDecifrado" type="button">Decifrar</button>
-          <button class="button" id="reset">Borrar</button>
-         </div><br/>
+            <h2>Conversa con tu equipo de trabajo de forma segura</h2>
+            <button class="button" id="inicio" type="button">Inicio</button>
+        </div>
+    </div>   
 
-           <p class="textbox">Obten tu mensaje</p>
-           <textarea id="decifrar" rows="8" cols="70" placeholder="Mensaje a decifrar" class="text"></textarea>
+    <div id="pantallaDos">
+        <div>
+            <h3>Elige una clave secreta y escribe el mensaje ha cifrar</h3>
+        </div>
+        <div>
+            <h4>Clave</h4>
+            <input id="clave" type="number" min="1" max="10" name="desplazamiento" class="inputNumber">
+        </div><br/>
+        <div>
+            <p class="textbox">Crea tu mensaje</p>
+            <textarea id="cifrar" rows="7" cols="90" placeholder="Mensaje a cifrar" class="text"></textarea>
+        </div><br/>
+        <div>
+            <button class="button" id="mensajeCifrado" type="button">Cifrar</button>
+            <button class="button" id="mensajeDecifrado" type="button">Decifrar</button>
+            <button class="button" id="reset">Borrar</button>
+        </div><br/>
+        <div>
+            <p class="textbox">Obten tu mensaje</p>
+            <textarea id="decifrar" rows="7" cols="90" placeholder="Mensaje a decifrar" class="text"></textarea>
+        </div>
     </div>
 
     <script src="cipher.js"></script>
