@@ -1,7 +1,12 @@
 body{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background: -webkit-linear-gradient(#41BBE1, #41E1E1);
+    background: -webkit-linear-gradient(#0C6F6F, #2BFAFA);
     color: white;
-
 }
+
+.button{
+	color: red;
+	
+}
+
