@@ -15,13 +15,13 @@ inicio.addEventListener("click", comenzar);
 
 button.addEventListener("click", () => {
   const claveResultado = parseInt(clave.value);
-  const cifrarResultado = cifrar.value.toUpperCase();
+  const cifrarResultado = cifrar.value;
   document.getElementById("decifrar").innerHTML = window.cipher.encode(claveResultado, cifrarResultado);
 });
 
 buttonDecifrar.addEventListener("click", () => {
   const claveResultadoDecifrar = parseInt(clave.value);
-  const cifrarResultadoDecifrar = cifrar.value.toUpperCase();
+  const cifrarResultadoDecifrar = cifrar.value;
   document.getElementById("decifrar").innerHTML = window.cipher.decode(claveResultadoDecifrar, cifrarResultadoDecifrar);
 });
 
@@ -29,7 +29,3 @@ const reset = () => {
    location.reload(true);
 };
 buttonReset.addEventListener("click", reset);
-
-
-
-
