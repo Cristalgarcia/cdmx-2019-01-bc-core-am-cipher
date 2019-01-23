@@ -4,7 +4,7 @@ const clave = document.getElementById("clave");
 const cifrar = document.getElementById("cifrar");
 const button = document.getElementById("mensajeCifrado")
 const buttonDecifrar = document.getElementById("mensajeDecifrado")
-const buttonReset = document.getElementById("reset");
+const buttonReset = document.getElementById("reset")/*.addEventListener("click", reset);*/
 
 const comenzar = () => {
   document.getElementById("pantallaUno").style.display="none"
@@ -26,6 +26,8 @@ buttonDecifrar.addEventListener("click", () => {
 });
 
 const reset = () => {
-   location.reload(true);
+   document.getElementById("cifrar").value = "";
+   document.getElementById("decifrar").innerHTML = "";
+   document.getElementById("clave").value = "";
 };
 buttonReset.addEventListener("click", reset);
