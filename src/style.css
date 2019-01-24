@@ -1,69 +1,87 @@
 body{
     text-align: center;
-    font-family: 'Oxygen', sans-serif;
+    font-family: "Poppins", sans-serif;
     background: -webkit-linear-gradient(#025B65, #38D6BB);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: white;
-    font-weight: lighter
-    margin: 0;
-    padding: 0;
+    font-weight: lighter;
+    margin: 0px;
+    padding: 0px;
     width: 100%;
     height: 100%;
     box-sizing: border-box;   
 }
 figure{
-  margin-block-start: 50px;
+  margin-block-start: 3%;
   
 }
 h1{
 	color: white;
-	font-size: 80px
+	font-size: 60px;
+  font-family: "Poppins", sans-serif;
 }
 .subtitulo{
-  font-size: 22px
+  font-size: 20px;
+  margin-top: 5%;
+  font-family: "Poppins", sans-serif;
 }
 .box-blue{
-  width: 1500px;
+  background-attachment: fixed;
+  width: 100%;
   padding-left:  0px;
   padding-right: 0px;
-  margin-left:   0px;
-  margin-right:  0px;
+  margin-top: 5%;
   height: 100px;
   border: 0px #025B65;
   background-color: #025B65;
+  position: fixed;
 }
-.box-redes{
-  width: 1500px;
+.box-blue-dos{
+  background-attachment: fixed;
+  width: 100%;
   padding-left:  0px;
   padding-right: 0px;
-  margin-left:   0px;
-  margin-right:  0px;
-  height: 100px;
+  margin-top: 0.5%;
+  height: 45px;
   border: 0px #025B65;
   background-color: #025B65;
-
+  position: fixed;
 }
 .pantallaDos{
 	display: none;
 }
 .inputNumber{
 	border-radius: 6px;
-	font-family: 'Oxygen', sans-serif;
+	font-family: "Poppins", sans-serif;
+  font-size: 13px;
 	padding: 5px;
-  width: 50px;
+  width: 5%;
 }
-.clave{
-  font-size: 25px;
-}
-.textbox{
-	font-family: 'Oxygen', sans-serif;
-  font-weight: bold;
-  font-size: 20px
 
+.textbox{
+	font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  height: 100%; 
+}
+.textbox_mensaje{
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  height: 100%; 
+  margin-top: 0.2%;
 }
 .text{
    border-radius: 10px;
-   font-family: 'Oxygen', sans-serif;
+   font-family: "Poppins", sans-serif;
+   font-size: 14px;
    color: #1D2D2A;
+   width: 60%;
+   margin-top: -1%;
+   resize: none;
+   overflow: auto;
+   overflow-y:hidden;
 }
 .Inicio{
   border-radius: 6px;
@@ -74,8 +92,8 @@ h1{
   margin: 0 auto;
   font-size: 25px;
   color: black;
-  font-family: 'Oxygen', sans-serif;
- font-weight: bold;   
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;   
 }
 .Inicio:hover{
   background: #0A6D6D;
@@ -85,21 +103,40 @@ h1{
 .button{
 	border-radius: 6px;
 	padding: 8px;
-  width: 72px;
+  width: 80px;
   height: 40px;
   font-size: 15px;
 	background: white;
-    color: black;
-    font-family: 'Oxygen', sans-serif;
-    font-weight: bold;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
 }
 .button:hover{
   background: #0A6D6D;
   text-decoration: none;
   color: white;
 }
-.fab{
+#sk{
+  font-size: 22px;
+  margin-left: 65%;
+  padding-top: 1%;
+  padding-left: 12%;
   position: relative;
-  top: -20px;
-  left: 20px;
+}
+#slack{
+  font-size: 22px;
+  padding-left: 2%;
+  position: relative;
+}
+#whatsapp{
+  font-size: 22px;
+  padding-left: 2%;
+  position: relative;
+}
+.comparte{
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  position:relative;
+  top:-89%;
+  left: 13%;
 }

@@ -7,7 +7,7 @@
     <title>Cifrado César</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 
 </head>
 <body>
@@ -33,7 +33,7 @@
             <input id="clave" type="number" name="desplazamiento" class="inputNumber">
         </div><br/>
         <div>
-            <p class="textbox">Escribe tu mensaje</p>
+            <p class="textbox_mensaje">Escribe tu mensaje</p>
             <textarea id="cifrar" rows="7" cols="90" placeholder="Mensaje a cifrar" class="text"></textarea>
         </div><br/>
         <div>
@@ -42,14 +42,13 @@
             <button class="button" id="reset">Borrar</button>
         </div><br/>
         <div>
-            <p class="textbox">!Listo!</p>
+            <p class="textbox_mensaje">!Listo!</p>
             <textarea id="decifrar" rows="7" cols="90" placeholder="Mensaje a decifrar" class="text"></textarea>
         </div>
-        <div>
-            <input class="box-redes"> 
-            <figure><span style="font-size: 3em;"><i class="fab fa-skype"></i></span>
-        </figure>
-        <div>
+        <div class="box-blue-dos">
+            <i id="sk" class="fab fa-skype"></i><i id="slack" class="fab fa-slack-hash"></i><i id="whatsapp" class="fab fa-whatsapp"></i> <p class="comparte">Comparte</p>     
+        </div>  
+        
     </section>
 
     <script src="cipher.js"></script>
