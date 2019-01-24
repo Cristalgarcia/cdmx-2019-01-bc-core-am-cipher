@@ -84,7 +84,7 @@ h1{
    overflow-y:hidden;
 }
 .Inicio{
-  border-radius: 6px;
+  border-radius: 8px;
   width: 150px;
   background: white;
   height: 40px;
@@ -101,9 +101,9 @@ h1{
   color: white;
 }
 .button{
-	border-radius: 6px;
+	border-radius: 8px;
 	padding: 8px;
-  width: 80px;
+  width: 100px;
   height: 40px;
   font-size: 15px;
 	background: white;
@@ -115,6 +115,15 @@ h1{
   background: #0A6D6D;
   text-decoration: none;
   color: white;
+}
+#lock{
+  margin-right: 4%
+}
+#open{
+  margin-right: 4%
+}
+#trash{
+  margin-right: 4%
 }
 #sk{
   font-size: 22px;
