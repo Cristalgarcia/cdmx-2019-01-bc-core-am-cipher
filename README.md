@@ -11,8 +11,7 @@ Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
 
 ## Pre-requisitos e instalación
 1. Antes que nada, asegúrate de tener un editor de texto en
-   condiciones, algo como [Atom](https://atom.io/), 
-   [Visual Code](https://code.visualstudio.com/), [Sublime Text](https://www.sublimetext.com) o cualquier otro de tu preferencia.
+   condiciones, algo como [Atom](https://atom.io/), [Visual Code](https://code.visualstudio.com/), [Sublime Text](https://www.sublimetext.com) o cualquier otro de tu preferencia.
 2. Para ejecutar los comandos a continuación necesitarás una
    [UNIX Shell](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/shell),
    que es un programita que interpreta líneas de comando (command-line
@@ -28,8 +27,7 @@ Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
 5. Instala las dependencias del proyecto con el comando `npm
    install`. Esto asume que has instalado [Node.js](https://nodejs.org/) (que
    incluye [npm](https://docs.npmjs.com/)).
-6. Si todo ha ido bien, deberías poder ejecutar las :traffic_light:
-   pruebas unitarias (unit tests) con el comando `npm run test`.
+6. Si todo ha ido bien, deberías poder ejecutar las pruebas unitarias (unit tests) con el comando `npm run test`.
 
 ##Consideraciones técnicas
 Este proyecto está desarrollado con:
@@ -37,11 +35,11 @@ Este proyecto está desarrollado con:
 - EMS6 JavaScriptpuro [JSVanilla](https://medium.com/laboratoria-developers/vanillajs-vs-jquery-31e623bbd46e).
 -CSS3
 -HTML5
-- Se realizaron [pruebas unitarias]() para validar la funcionalidad de codificación y decodificación. Estos test se implementaron con [Mocha](https://mochajs.org/) y assertion library de [Chai](https://www.chaijs.com/).
-- Como gestor de proyecto de utilizó NPM (Node Package Manager).
+- Se realizaron pruebas unitarias para validar la funcionalidad de codificación y decodificación. Estos test se implementaron con [Mocha](https://mochajs.org/) y assertion library de [Chai](https://www.chaijs.com/).
+- Como gestor de proyecto se utilizó NPM (Node Package Manager).
 
 ## Pruebas
-Las pruebas automatizadas para este sistema requieren de una instalación simple a través del comando npm install. Los tests verifican que regrese una letra acorde a la posición ingresada en el offset. Analiza que la función cifrar retorne "HIJKLMNOPQRSTUVWXYZABCDEFG" para "ABCDEFGHIJKLMNOPQRSTUVWXYZ" con offset 33; y que la función descifrar retorne retornar "ABCDEFGHIJKLMNOPQRSTUVWXYZ" para "HIJKLMNOPQRSTUVWXYZABCDEFG" con offset 33. No cifra caracteres especiales y espacios (" !@" debería retornar  " !@"', ).
+Las pruebas automatizadas para este sistema requieren de una instalación simple a través del comando npm install. Los tests verifican que regrese una letra acorde a la posición ingresada en el offset. Analiza que la función cifrar retorne "HIJKLMNOPQRSTUVWXYZABCDEFG" para "ABCDEFGHIJKLMNOPQRSTUVWXYZ" con offset 33; y que la función descifrar retorne retornar "ABCDEFGHIJKLMNOPQRSTUVWXYZ" para "HIJKLMNOPQRSTUVWXYZABCDEFG" con offset 33. No cifra carácteres especiales y espacios (" !@" debería retornar  " !@"', ).
 
 ###Estilo
 El _boilerplate_ contiene una estructura de archivos como punto de partida así
@@ -81,7 +79,7 @@ usaremos las recomendaciones _por defecto_ de tanto `eslint` como `htmlhint`.
 
 Agradezco el apoyo de mi squad "Guacacoders".  
 
-## UX-UI
+# UX-UI
 Para conocer el proceso de diseño con el que se desarrolló este producto consultar el [link.](https://docs.google.com/document/d/1cpwSiOgyi6fBrOD6DRCR8WN37Aqv1ZWU08nG4quf58M/edit?usp=sharing) 
 
 ## Deploy link
