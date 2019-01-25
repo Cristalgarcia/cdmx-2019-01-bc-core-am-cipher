@@ -33,8 +33,8 @@ Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
 Este proyecto está desarrollado con:
 
 - EMS6 JavaScriptpuro [JSVanilla](https://medium.com/laboratoria-developers/vanillajs-vs-jquery-31e623bbd46e).
--CSS3
--HTML5
+- CSS3
+- HTML5
 - Se realizaron pruebas unitarias para validar la funcionalidad de codificación y decodificación. Estos test se implementaron con [Mocha](https://mochajs.org/) y assertion library de [Chai](https://www.chaijs.com/).
 - Como gestor de proyecto se utilizó NPM (Node Package Manager).
 
