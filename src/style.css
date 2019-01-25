@@ -36,6 +36,7 @@ h1{
   border: 0px #025B65;
   background-color: #025B65;
   position: fixed;
+  bottom: 0;
 }
 .box-blue-dos{
   background-attachment: fixed;
@@ -43,10 +44,11 @@ h1{
   padding-left:  0px;
   padding-right: 0px;
   margin-top: 0.5%;
-  height: 45px;
+  height: 43px;
   border: 0px #025B65;
   background-color: #025B65;
   position: fixed;
+  bottom: 0;
 }
 .pantallaDos{
 	display: none;
@@ -144,7 +146,7 @@ h1{
 }
 .comparte{
   font-family: "Poppins", sans-serif;
-  font-size: 13px;
+  font-size: 14px;
   position:relative;
   top:-89%;
   left: 13%;

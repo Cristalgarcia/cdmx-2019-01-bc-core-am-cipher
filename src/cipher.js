@@ -5,7 +5,7 @@ window.cipher = {
         if (string.charCodeAt(i) >= 65 && string.charCodeAt(i) <= 90){
           let codigo = (string.charCodeAt(i) - 65 + offset) % 26 + 65;
           let resultado = String.fromCharCode(codigo);
-      textCifrado+= resultado;
+      textCifrado+= resultado;  
     } else if (string.charCodeAt(i) >= 97 && string.charCodeAt(i) <= 122){
          let codigo = (string.charCodeAt(i) - 97 + offset) % 26 + 97;
          let resultado=String.fromCharCode(codigo);
