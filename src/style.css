@@ -81,7 +81,7 @@ h1{
    font-size: 14px;
    color: #1D2D2A;
    width: 60%;
-   height: 105px;
+   height: 103px;
    margin-top: -1%;
    resize: none;
    overflow: auto;
@@ -94,7 +94,7 @@ h1{
   height: 40px;
   padding: 4px 0 0 0;
   margin: 0 auto;
-  margin-top: -4%;
+  margin-top: 0%;
   font-size: 25px;
   color: black;
   font-family: "Poppins", sans-serif;
