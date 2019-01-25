@@ -82,7 +82,7 @@ usaremos las recomendaciones _por defecto_ de tanto `eslint` como `htmlhint`.
 Agradezco el apoyo de mi squad "Guacacoders".  
 
 ## UX-UI
-Para conocer el proceso de diseño con el que se desarrolló este producto consultar el [link.]https://docs.google.com/document/d/1cpwSiOgyi6fBrOD6DRCR8WN37Aqv1ZWU08nG4quf58M/edit?usp=sharing 
+Para conocer el proceso de diseño con el que se desarrolló este producto consultar el [link.](https://docs.google.com/document/d/1cpwSiOgyi6fBrOD6DRCR8WN37Aqv1ZWU08nG4quf58M/edit?usp=sharing) 
 
 ## Deploy link
 https://cristalgarcia.github.io/cdmx-2019-01-bc-core-am-cipher/src/ 
